@@ -55,6 +55,8 @@ The list is then sorted twice which simplifies to O(nlogn) since it is
 the most expensive computation.
 """
 def printFrequencies(wordCount):
+    if len(wordCount) == 0:
+        print(0)
     sorted_list = [(key, count) for key, count in wordCount.items()]
     sorted_list.sort(key=lambda x: x[0])
     sorted_list.sort(key=lambda x: x[1], reverse=True)
