@@ -29,3 +29,6 @@ occurances of a token is present in a file. Then in part B, it counts how many t
 are present in both files. The more tokens in common that they share, the more similar 
 both files are. This can be a way to rank how similar two sequence of words are and 
 can be used to rank them, which has many applications such as in a search engine.
+
+Sources used:
+https://stackabuse.com/read-a-file-line-by-line-in-python/
